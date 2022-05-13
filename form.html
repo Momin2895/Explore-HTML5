@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="semantic.html">Semantic</a>
+                </li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="About us.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Alisa Resturant</h1>
+    </header>
+    <form action="">
+        <p> Name: <input type="text" name="name" placeholder="Write your name" id=""></p>
+        <p> email: <input type="text" name="email" placeholder="Write your name" id=""></p>
+        <fieldset>
+            <Legend>
+                <h3>Select Menu</h3>
+            </Legend>
+            <p>
+                <label for="Fish">
+                    <input type="radio" name="Food" id="Fish">Fish
+                </label>
+            </p>
+            <p>
+                <label for="Meat">
+                    <input type="radio" name="Food" id="Meat">Meat
+                </label>
+            </p>
+            <p>
+                <label for="Vegitable">
+                    <input type="radio" name="Food" id="Vegitable">Vegitable
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Select Soft Drinks</h3>
+            </legend>
+            <p>
+                <label for="Coke"><input type="checkbox" name="Coke" id="Coke">Coke
+                </label>
+            </p>
+            <p>
+                <label for="Pepsi"><input type="checkbox" name="Coke" id="Pepsi">Pepsi
+                </label>
+            </p>
+            <p>
+                <label for="7up"><input type="checkbox" name="7up" id="7up">7up
+                </label>
+            </p>
+        </fieldset>
+        <p>Spl Instruction</p>
+        <textarea name="Instruction" id="" cols="40" rows="14"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
